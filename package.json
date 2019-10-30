@@ -1,0 +1,31 @@
+{
+  "name": "hyber",
+  "version": "0.1.0",
+  "description": "make node.js get power of multi-thread.",
+  "main": "./dist/index.js",
+  "types": "./types",
+  "scripts": {
+    "build": "tacer-script build",
+    "test": "tacer-script test",
+    "test:watch": "tacer-script test:watch"
+  },
+  "author": "Idan Loo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/jest": "^24.0.18",
+    "tacer-template-lib": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IdanLoo/hyber"
+  },
+  "keywords": [
+    "multithread",
+    "node",
+    "async"
+  ],
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
