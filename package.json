@@ -1,6 +1,6 @@
 {
   "name": "hyber",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "make node.js get power of multi-process.",
   "main": "./dist/index.js",
   "types": "./types",
