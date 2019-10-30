@@ -10,10 +10,10 @@ test('returns the result of calling a parameterless function', async () => {
 })
 
 test('returns the result of calling a function with parameters', async () => {
-  const func = (a: number) => a + 10
+  const func = (a: number, b: number) => a + 10
   const asyncFunc = hyber(func)
 
-  const result = await asyncFunc(10)
+  const result = await asyncFunc(10, 20)
 
   expect(result).toBe(20)
 })

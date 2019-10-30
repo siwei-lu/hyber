@@ -30,8 +30,8 @@ function add(a, b) {
 
 Then it will be transformed to
 
-```javascript
-;`(function add(a, b) {
+```
+`(function add(a, b) {
     return a + b
 })(arg1, arg2)
 `
@@ -39,7 +39,7 @@ Then it will be transformed to
 
 Once you give the arguments, they will be filled into the string like
 
-```javascript
+```
 ;`(function add(a, b) {
     return a + b
 })(10, 20)
@@ -48,8 +48,8 @@ Once you give the arguments, they will be filled into the string like
 
 Send message to the main process
 
-```javascript
-;`const value = (function add(a, b) {
+```
+`const value = (function add(a, b) {
     return a + b)
 })(10, 20)
 process.send(value)

@@ -1,6 +1,5 @@
-import { Func } from './types'
 import run from './run'
 
-export default function hyber<T, P>(func: Func<T, P>) {
-  return (...args: P[]) => run(func, args)
+export default function hyber<T extends (...args: any[]) => any>(func: T) {
+  return (...args: Parameters<T>): Promise<ReturnType<T>> => run(func, args)
 }
