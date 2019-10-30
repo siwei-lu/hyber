@@ -1,4 +1,4 @@
-# hyber
+# hyber [![CircleCI](https://circleci.com/gh/IdanLoo/hyber.svg?style=svg)](https://circleci.com/gh/IdanLoo/hyber)
 
 make node.js get power of multi-process.
 
